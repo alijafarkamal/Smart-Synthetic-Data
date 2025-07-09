@@ -39,7 +39,7 @@ A **top-tier, industry-level** synthetic data generator built with Python and St
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/alijafarkamal/Smart-Synthetic-Data
    cd smart-synthetic-data-generator
    ```
 
@@ -283,22 +283,6 @@ This will test:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🎯 Hackathon Submission
-
-This project demonstrates **industry-level** synthetic data generation with:
-
-- **Advanced Schema System**: Rich metadata with validation
-- **Bias Control**: Edge case injection for robustness
-- **Privacy Protection**: Controlled noise injection
-- **Comprehensive Validation**: Statistical analysis and visualization
-- **Production-Ready Code**: Clean, documented, and tested
-- **Modern UI/UX**: Enhanced Streamlit interface
-- **Scalable Architecture**: Easy to extend with new domains
-- **No External Dependencies**: Completely local and open-source
 
 ---
 
