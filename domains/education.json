@@ -1,0 +1,84 @@
+{
+  "fields": {
+    "student_id": {
+      "type": "uuid"
+    },
+    "student_name": {
+      "type": "name"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "phone"
+    },
+    "address": {
+      "type": "address"
+    },
+    "age": {
+      "type": "integer",
+      "min": 16,
+      "max": 25
+    },
+    "gender": {
+      "type": "choice",
+      "options": ["Male", "Female", "Other"]
+    },
+    "major": {
+      "type": "choice",
+      "options": ["Computer Science", "Engineering", "Business", "Arts", "Medicine", "Law", "Education", "Psychology"]
+    },
+    "gpa": {
+      "type": "float",
+      "min": 0.0,
+      "max": 4.0,
+      "precision": 2
+    },
+    "enrollment_date": {
+      "type": "date",
+      "start": "2018-01-01",
+      "end": "2024-12-31"
+    },
+    "graduation_date": {
+      "type": "date",
+      "start": "2020-01-01",
+      "end": "2028-12-31"
+    },
+    "university": {
+      "type": "company"
+    },
+    "department": {
+      "type": "choice",
+      "options": ["Computer Science", "Electrical Engineering", "Mechanical Engineering", "Business Administration", "Arts & Humanities", "Medical School", "Law School"]
+    },
+    "advisor_name": {
+      "type": "name"
+    },
+    "advisor_email": {
+      "type": "email"
+    },
+    "credits_completed": {
+      "type": "integer",
+      "min": 0,
+      "max": 150
+    },
+    "total_credits": {
+      "type": "integer",
+      "min": 120,
+      "max": 150
+    },
+    "scholarship_amount": {
+      "type": "float",
+      "min": 0.0,
+      "max": 50000.0,
+      "precision": 2
+    },
+    "international_student": {
+      "type": "boolean"
+    },
+    "dormitory": {
+      "type": "choice",
+      "options": ["On-Campus", "Off-Campus", "Commuter"]
+    }
+  }
+} 

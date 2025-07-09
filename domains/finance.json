@@ -1,0 +1,103 @@
+{
+  "fields": {
+    "account_id": {
+      "type": "uuid"
+    },
+    "customer_name": {
+      "type": "name"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "phone"
+    },
+    "address": {
+      "type": "address"
+    },
+    "account_type": {
+      "type": "choice",
+      "options": ["Savings", "Checking", "Credit", "Investment", "Business"]
+    },
+    "account_balance": {
+      "type": "float",
+      "min": -5000.0,
+      "max": 100000.0,
+      "precision": 2
+    },
+    "credit_score": {
+      "type": "integer",
+      "min": 300,
+      "max": 850
+    },
+    "employment_status": {
+      "type": "choice",
+      "options": ["Full-time", "Part-time", "Contract", "Freelance", "Unemployed", "Retired", "Student"]
+    },
+    "education": {
+      "type": "choice",
+      "options": ["High School", "Bachelor", "Master", "PhD", "Associate", "Certificate", "Diploma"]
+    },
+    "salary": {
+      "type": "integer",
+      "min": 20000,
+      "max": 200000
+    },
+    "transaction_id": {
+      "type": "uuid"
+    },
+    "transaction_type": {
+      "type": "choice",
+      "options": ["Purchase", "Sale", "Refund", "Transfer", "Deposit", "Withdrawal", "Payment", "Fee", "Interest", "Dividend"]
+    },
+    "transaction_amount": {
+      "type": "float",
+      "min": 1.0,
+      "max": 50000.0,
+      "precision": 2
+    },
+    "transaction_date": {
+      "type": "date",
+      "start": "2020-01-01",
+      "end": "2025-01-01"
+    },
+    "currency": {
+      "type": "choice",
+      "options": ["USD", "EUR", "GBP", "JPY", "CAD", "AUD", "CHF", "CNY"]
+    },
+    "merchant": {
+      "type": "company"
+    },
+    "card_type": {
+      "type": "choice",
+      "options": ["Visa", "Mastercard", "American Express", "Discover", "Debit"]
+    },
+    "bank_name": {
+      "type": "company"
+    },
+    "branch_code": {
+      "type": "integer",
+      "min": 100,
+      "max": 999
+    },
+    "ifsc_code": {
+      "type": "text",
+      "max_chars": 11
+    },
+    "loan_status": {
+      "type": "choice",
+      "options": ["Approved", "Pending", "Rejected", "Under Review", "Conditional"]
+    },
+    "mortgage_amount": {
+      "type": "float",
+      "min": 50000.0,
+      "max": 2000000.0,
+      "precision": 2
+    },
+    "account_open_date": {
+      "type": "date",
+      "start": "1990-01-01",
+      "end": "2024-12-31"
+    }
+  }
+} 

@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "patient_id":      { "type": "uuid" },
+    "name":            { "type": "name" },
+    "gender":          { "type": "choice", "options": ["Male","Female","Other"] },
+    "age":             { "type": "integer", "min": 0, "max": 100 },
+    "diagnosis":       { "type": "choice", "options": ["Diabetes","Hypertension","Asthma","Flu","COVID-19","Cancer"] },
+    "email":           { "type": "email" },
+    "admit_date":      { "type": "date", "start": "2020-01-01", "end": "2025-07-01" },
+    "phone":           { "type": "phone" },
+    "address":         { "type": "address" },
+    "emergency_phone": { "type": "phone" },
+    "room_number":     { "type": "integer", "min": 1, "max": 200 },
+    "department":      { "type": "choice", "options": ["Cardiology","Oncology","Emergency","Neurology","Pediatrics"] }
+  }
+}
