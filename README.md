@@ -1,5 +1,6 @@
 # 🔬 Smart Synthetic Data Generator
-**Link**: https://smartdata.streamlit.app/
+**Link**: https://smartdata.streamlit.app.
+
 A **top-tier, industry-level** synthetic data generator built with Python and Streamlit. This application generates realistic synthetic data across multiple domains with advanced features including bias control, edge case injection, noise injection, and comprehensive validation.
 
 ## 🚀 Features
